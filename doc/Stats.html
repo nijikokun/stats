@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta id="repository-name" content="">
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="js/doc.js"></script>
+  <title>Stats - </title>
+</head>
+<body>
+
+<div id="types-list">
+  <div id="search-box">
+    <input type="search" id="search-input" placeholder="Search...">
+  </div>
+
+  <ul>
+    <li><a href="index.html">README</a></li>
+  </ul>
+
+  <ul>
+  
+  <li class=" current" data-id="/Stats" data-name="stats">
+      <a href="Stats.html">Stats</a>
+      
+    </li>
+  
+</ul>
+
+</div>
+
+<div id="main-content">
+<h1 class="type-name">
+
+  <span class="kind">module</span> Stats
+
+</h1>
+
+
+
+
+
+  <h2>Overview</h2>
+
+  <p>Statistics module with common mathematical functions </p>
+
+
+
+
+
+
+
+  <h2>Extended Modules</h2>
+  <ul class="other-types-list">
+  
+    <li class="other-type"><a href="Stats.html">Stats</a></li>
+  
+  </ul>
+
+
+
+
+
+
+
+
+  <h2>Defined in:</h2>
+  
+
+
+
+
+
+
+
+  <h2>Instance Method Summary</h2>
+  <ul class="list-summary">
+    
+      <li class="entry-summary">
+        <a href="#mean%28input%3AArray%28Int%7CFloat32%7CFloat64%29%29%3AFloat64-instance-method" class="signature"><strong>#mean</strong>(input : Array(Int | Float32 | Float64)) : Float64</a>
+        
+          <div class="summary"><p>Returns a <code>Float64</code> averaged value from a given <code>Array(Int | Float32 | Float64)</code></p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#median%28input%3AArray%28Int%7CFloat32%7CFloat64%29%29%3AFloat64-instance-method" class="signature"><strong>#median</strong>(input : Array(Int | Float32 | Float64)) : Float64</a>
+        
+          <div class="summary"><p>Returns a <code>Float64</code> median value from a given <code>Array(Int | Float32 | Float64)</code></p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#mode%28input%3AArray%28Int%7CFloat32%7CFloat64%29%29%3AFloat64-instance-method" class="signature"><strong>#mode</strong>(input : Array(Int | Float32 | Float64)) : Float64</a>
+        
+          <div class="summary"><p>Returns the most frequent value as a <code>Float64</code> from a given <code>Array(Int | Float32 | Float64)</code></p></div>
+        
+      </li>
+    
+  </ul>
+
+
+
+
+
+<div class="methods-inherited">
+  
+</div>
+
+
+
+
+  <h2>Instance Method Detail</h2>
+  
+    <div class="entry-detail" id="mean&#40;input:Array&#40;Int|Float32|Float64&#41;&#41;:Float64-instance-method">
+      <div class="signature">
+        
+        def <strong>mean</strong>(input : Array(Int | Float32 | Float64)) : Float64
+
+        <a class="method-permalink" href="#mean%28input%3AArray%28Int%7CFloat32%7CFloat64%29%29%3AFloat64-instance-method">#</a>
+      </div>
+      
+        <div class="doc"><p>Returns a <code>Float64</code> averaged value from a given <code>Array(Int | Float32 | Float64)</code></p>
+
+<pre><code><span class="t">Stats</span>.mean [<span class="n">1</span>,<span class="n">2</span>,<span class="n">3</span>,<span class="n">4</span>]      <span class="c"># &#61;&gt; 2.5</span></code></pre></div>
+      
+      <br/>
+      <div>
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="median&#40;input:Array&#40;Int|Float32|Float64&#41;&#41;:Float64-instance-method">
+      <div class="signature">
+        
+        def <strong>median</strong>(input : Array(Int | Float32 | Float64)) : Float64
+
+        <a class="method-permalink" href="#median%28input%3AArray%28Int%7CFloat32%7CFloat64%29%29%3AFloat64-instance-method">#</a>
+      </div>
+      
+        <div class="doc"><p>Returns a <code>Float64</code> median value from a given <code>Array(Int | Float32 | Float64)</code></p>
+
+<pre><code><span class="t">Stats</span>.median [<span class="n">1</span>,<span class="n">3</span>,<span class="n">8</span>,<span class="n">9</span>]      <span class="c"># &#61;&gt; 5.5</span></code></pre></div>
+      
+      <br/>
+      <div>
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="mode&#40;input:Array&#40;Int|Float32|Float64&#41;&#41;:Float64-instance-method">
+      <div class="signature">
+        
+        def <strong>mode</strong>(input : Array(Int | Float32 | Float64)) : Float64
+
+        <a class="method-permalink" href="#mode%28input%3AArray%28Int%7CFloat32%7CFloat64%29%29%3AFloat64-instance-method">#</a>
+      </div>
+      
+        <div class="doc"><p>Returns the most frequent value as a <code>Float64</code> from a given <code>Array(Int | Float32 | Float64)</code></p>
+
+<pre><code><span class="t">Stats</span>.mode [<span class="n">1</span>,<span class="n">3</span>,<span class="n">8</span>,<span class="n">9</span>,<span class="n">3</span>]      <span class="c"># &#61;&gt; 3.0</span></code></pre>
+
+<p><span class="flag orange">TODO</span>  Figure out how to use generics to return the actual value</p>
+
+<p><span class="flag orange">TODO</span>  Figure out how to return more than one when there is a draw case</p></div>
+      
+      <br/>
+      <div>
+        
+      </div>
+    </div>
+  
+
+
+
+
+</div>
+
+</body>
+</html>

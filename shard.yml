@@ -1,0 +1,9 @@
+name: stats
+version: 1.0.0
+
+authors:
+  - Nijiko Yonskai <nijikokun@gmail.com>
+
+crystal: 0.22.0
+
+license: MIT
