@@ -18,7 +18,7 @@ require "stats"
 
 # Documentation
 
-[View the docs](http://nijikokun.github.com/stats/)
+- [View the docs](http://nijikokun.com/stats/doc/)
 
 # Roadmap
 
