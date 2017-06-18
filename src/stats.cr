@@ -49,8 +49,8 @@ module Stats
   # Stats.mode [1,3,8,9,3]      # => 3.0
   # ```
   #
-  # TODO: Figure out how to use generics to return the actual value
-  # TODO: Figure out how to return more than one when there is a draw case
+  # TODO: Use generics to return value cast to original type
+  # TODO: Return multiple results on case of draw
   def mode(input : Array(Int | Float32 | Float64)) : Float64
     return Float64.new(-1) if input.size === 0
 

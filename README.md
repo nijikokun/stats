@@ -24,5 +24,5 @@ require "stats"
 
 - [x] Add initial statistics methods
 - [x] Release 1.0
-- [ ] Add tests for initial methods
+- [x] Add tests for initial methods
 - [ ] Release 1.1
